@@ -1,7 +1,7 @@
 import { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AdminContext } from '../../contexts/AdminContext';
-import * as AuthAPI from '../../services/auth-api';
+import * as AuthAPI from '../../services/auth.service';
 
 // rendering the loging form
 function Login() {
